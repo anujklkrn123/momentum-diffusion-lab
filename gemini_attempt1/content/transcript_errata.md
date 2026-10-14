@@ -1,0 +1,1 @@
+Pending — Record any separate transcript corrections or technical clarifications here after the verbatim YouTube auto-generated transcript is posted above. Leave the verbatim transcript file itself completely unedited.
