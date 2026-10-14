@@ -1,0 +1,13 @@
+{
+  "youtube_url": "Pending",
+  "video_visibility_verified": "Pending",
+  "presentation_outline": [
+    "1. Physics Question & Motivation: How motion spreads through an initially stationary fluid, and why we need both dynamic viscosity (mu) and kinematic viscosity (nu).",
+    "2. Physical Intuition Before PDEs: How unequal horizontal shear forces on a thin fluid layer cause acceleration, and why steady linear flow has zero net acceleration despite nonzero velocity.",
+    "3. Predict & Observe Walkthrough: Live demonstration of the four guided experiments (doubling rho, doubling mu, doubling both rho and mu, and doubling gap H).",
+    "4. Free Exploration & Numerical Design: How explicit FTCS stability (Fo <= 0.5), grid resolution, and the t = 0 wall-stress singularity are handled.",
+    "5. AI Critique Decisions: Why specific suggestions were accepted (e.g., bounded inputs, solver contract) or rejected (e.g., omitting shear-stress readouts/graphs to avoid clutter).",
+    "6. Two-Model Comparison (Astra vs. Gemini): Attempt 1 findings, the single consolidated correction round, Attempt 2 results, and final selection criteria.",
+    "7. Student Takeaways & Future Questions: Lessons learned about transport phenomena pedagogy and structured evaluation of AI-generated scientific software."
+  ]
+}
