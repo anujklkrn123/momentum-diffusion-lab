@@ -1,0 +1,102 @@
+{
+  "project_status": "Implementation candidate; formal model comparison, selection, deployment, video, and transcript pending.",
+  "public_website_url": "Pending",
+  "repository_url": "https://github.com/anujklkrn123/momentum-diffusion-lab",
+  "planning": {
+    "model_label": "Pending exact displayed model label",
+    "date": "Pending original plan date; revised specification supplied 2026-10-13",
+    "provider_interface": "Codex conversation; exact planning model label requires student confirmation",
+    "prompt_record": "Revised specification is preserved verbatim in docs/specification.md. Original planning turns and critique prompt must be exported from the conversation history."
+  },
+  "critique": {
+    "model_label": "4 Argon High Effort",
+    "provider_interface": "Pending student confirmation; do not relabel as Gemini",
+    "date": "Pending",
+    "original_record": "docs/critique-original.txt"
+  },
+  "student_decisions": [
+    {
+      "id": "E2",
+      "decision": "Reject transient and steady-state shear-stress readouts",
+      "reason": "Student: avoiding extra complexity, for both transient and steady-state cases.",
+      "status": "Confirmed by student",
+      "effect": "Keep the viscosity equation and explanatory sentence; no numerical stress readouts or stress plots."
+    },
+    {
+      "id": "E1",
+      "decision": "Use conservative teaching cases",
+      "reason": "Student chose conservative cases. Further reasoning in the student's own words is Pending.",
+      "status": "Choice confirmed by student",
+      "effect": "Bounded hypothetical-fluid exploration; no universal turbulence cutoff."
+    },
+    {
+      "id": "Scope",
+      "decision": "Keep heat and mass diffusion comparisons brief",
+      "reason": "Student requested quick comparisons to kinematic viscosity.",
+      "status": "Confirmed by student",
+      "effect": "Short equation-and-units connection; no extra simulations."
+    },
+    {
+      "id": "Correction rounds",
+      "decision": "One correction round per implementation",
+      "reason": "Student chose one correction round. Detailed reasoning is Pending.",
+      "status": "Confirmed by student",
+      "effect": "Preserve both first and corrected attempts; label later production repairs separately."
+    },
+    {
+      "id": "E3-E7 and O1-O4",
+      "decision": "Included or adapted in revised specification",
+      "reason": "Pending student accept/reject reasoning; assistant-proposed rationale must not be attributed to the student.",
+      "status": "Specification treatment documented; personal reasoning Pending",
+      "effect": "See docs/comparison-protocol.md for the suggestion table."
+    }
+  ],
+  "submissions": [
+    {
+      "name": "Codex candidate",
+      "model_label": "Codex, GPT-6-family assistance; exact displayed label Pending",
+      "provider_interface": "Codex desktop conversation",
+      "date": "2026-10-13",
+      "tool_access": "Local file creation and execution, web documentation, and parallel agent assistance. Continued planning context was available; this was not a fresh blind session.",
+      "first_attempt": "Current project candidate. Preserve all generated files before asking for the scored correction round.",
+      "correction_round": "Pending; no scored user correction prompt recorded",
+      "results": "29 internal checks passed; worst prescribed analytical-reference error 0.2033% of U. See docs/verification.md. External two-model comparison pending."
+    },
+    {
+      "name": "Second-model candidate",
+      "model_label": "Pending exact displayed model label",
+      "provider_interface": "Pending",
+      "date": "Pending",
+      "tool_access": "Pending",
+      "first_attempt": "Pending",
+      "correction_round": "Pending",
+      "results": "Pending"
+    }
+  ],
+  "contributions": {
+    "student": [
+      "Chose the moving-plate concept, hypothetical fluids, guided predictions followed by exploration, and a cylinder application diagram.",
+      "Answered planning predictions and corrected their explanation of momentum transmission through neighboring fluid layers.",
+      "Selected conservative cases, brief heat/mass comparisons, one correction round, and no stress readouts.",
+      "Created the GitHub repository. Final evaluation, model selection, reflection, recording, and transcript collection remain Pending."
+    ],
+    "ai": [
+      "Assisted planning, explanations, critique assessment, and the revised specification.",
+      "Supplied critique labeled 4 Argon High Effort; provider/interface Pending confirmation.",
+      "Generated this implementation candidate, test suite, diagrams, and documentation with parallel agent assistance.",
+      "No completed student reflection, second-model results, final selection, YouTube video, or transcript has been invented."
+    ]
+  },
+  "selection": {
+    "status": "Pending both candidates and external evaluation",
+    "reason": "Pending student decision based first on physics, then teaching clarity and usability."
+  },
+  "validation": {
+    "automated": "29 tests passed: 16 physics, 9 Streamlit integration, 4 chart/bounds. See docs/verification.md and docs/test-results.txt. Internal reference validation; external comparison pending.",
+    "manual": "Local browser prediction/reveal, continuous playback, pause, scrubbing, desktop and 390px phone layout checked; public deployment and actual video/transcript verification pending.",
+    "external_comparison": "Pending unchanged independent suite against both submissions. Candidate self-tests are not the formal independent comparison."
+  },
+  "future_learning": [
+    "Pending student's own reflection and future learning questions; prompts appear in content/reflections.md."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "youtube_url": "",
+  "status": "Pending recording and YouTube upload",
+  "transcript_path": "content/transcript.txt",
+  "transcript_source": "Pending YouTube auto-generated transcript, complete and unedited with supplied timestamps and line breaks",
+  "errata_path": "content/errata.md",
+  "outline": [
+    {"title": "Question and AI purpose", "prompt": "Introduce momentum diffusion, the two-viscosity question, and why comparing AI implementations is part of the project."},
+    {"title": "Predict and demonstrate", "prompt": "Show the four guided experiments with their common physical clock and explain your predictions in your own words."},
+    {"title": "Explain the physics", "prompt": "Use the thin-layer forces, boundary conditions, linear steady profile, characteristic time, and measured settling criterion."},
+    {"title": "Connect to applications", "prompt": "Show the cylinder diagram and brief heat/mass diffusivity comparison."},
+    {"title": "Planning and critique", "prompt": "Name exact model labels and explain which critique suggestions you accepted or rejected and why."},
+    {"title": "Compare and iterate", "prompt": "Present both first and corrected results, unchanged external validation, tool conditions, and your final selection."},
+    {"title": "Reflect and look ahead", "prompt": "State what you learned and what you want to learn next. This reflection must be written by the student."}
+  ]
+}

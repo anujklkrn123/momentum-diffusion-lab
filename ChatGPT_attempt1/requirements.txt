@@ -1,0 +1,4 @@
+# Tested on Python 3.12. Full environment pins are in requirements-lock.txt.
+streamlit==1.65.0
+numpy==2.5.4
+plotly==7.1.0

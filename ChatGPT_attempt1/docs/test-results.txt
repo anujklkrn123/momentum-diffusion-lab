@@ -1,0 +1,48 @@
+test_all_eight_pages_load (test_app.AppIntegrationTests.test_all_eight_pages_load) ... 2026-10-13 19:59:25.911 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_case_change_and_navigation_reset_player (test_app.AppIntegrationTests.test_case_change_and_navigation_reset_player) ... 2026-10-13 19:59:31.465 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_clock_advances_without_mutating_live_scrubber_and_stops_at_end (test_app.AppIntegrationTests.test_clock_advances_without_mutating_live_scrubber_and_stops_at_end) ... 2026-10-13 19:59:36.845 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-13 19:59:38.530 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-13 19:59:38.837 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-13 19:59:39.198 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-13 19:59:40.664 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-13 19:59:40.665 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_each_physical_input_change_resets_and_pauses (test_app.AppIntegrationTests.test_each_physical_input_change_resets_and_pauses) ... 2026-10-13 19:59:41.075 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_pending_presentation_is_honest (test_app.AppIntegrationTests.test_pending_presentation_is_honest) ... 2026-10-13 19:59:48.686 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_play_pause_scrub_reset_and_end_restart (test_app.AppIntegrationTests.test_play_pause_scrub_reset_and_end_restart) ... 2026-10-13 19:59:50.119 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_prediction_is_required_and_all_four_cases_render (test_app.AppIntegrationTests.test_prediction_is_required_and_all_four_cases_render) ... 2026-10-13 19:59:54.974 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_transcript_fixture_preserves_exact_display_text (test_app.AppIntegrationTests.test_transcript_fixture_preserves_exact_display_text) ... 2026-10-13 20:00:01.359 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_wrong_prediction_explains_without_blocking_demo (test_app.AppIntegrationTests.test_wrong_prediction_explains_without_blocking_demo) ... 2026-10-13 20:00:03.142 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_all_exploration_extremes_remain_conservative (test_charts.ChartTests.test_all_exploration_extremes_remain_conservative) ... ok
+test_cylinder_diagram_has_equal_geometric_axis_scaling (test_charts.ChartTests.test_cylinder_diagram_has_equal_geometric_axis_scaling) ... ok
+test_doubled_gap_uses_common_vertical_extent (test_charts.ChartTests.test_doubled_gap_uses_common_vertical_extent) ... ok
+test_velocity_arrows_stay_horizontal_at_fixed_layers (test_charts.ChartTests.test_velocity_arrows_stay_horizontal_at_fixed_layers) ... ok
+test_analytical_accuracy_at_prescribed_times (test_physics.CouettePhysicsTests.test_analytical_accuracy_at_prescribed_times) ... ok
+test_analytical_initial_boundaries_and_invalid_inputs (test_physics.CouettePhysicsTests.test_analytical_initial_boundaries_and_invalid_inputs) ... ok
+test_approaches_linear_steady_profile (test_physics.CouettePhysicsTests.test_approaches_linear_steady_profile) ... ok
+test_derived_scale_overflow_underflow (test_physics.CouettePhysicsTests.test_derived_scale_overflow_underflow) ... ok
+test_equal_kinematic_viscosity_same_history (test_physics.CouettePhysicsTests.test_equal_kinematic_viscosity_same_history) ... ok
+test_exact_output_step_includes_partial_step (test_physics.CouettePhysicsTests.test_exact_output_step_includes_partial_step) ... ok
+test_excessive_workload_fails_without_truncation (test_physics.CouettePhysicsTests.test_excessive_workload_fails_without_truncation) ... ok
+test_initial_condition_boundaries_and_shapes (test_physics.CouettePhysicsTests.test_initial_condition_boundaries_and_shapes) ... ok
+test_invalid_grid_or_fourier_number (test_physics.CouettePhysicsTests.test_invalid_grid_or_fourier_number) ... ok
+test_invalid_physical_inputs (test_physics.CouettePhysicsTests.test_invalid_physical_inputs) ... ok
+test_invalid_time_arrays (test_physics.CouettePhysicsTests.test_invalid_time_arrays) ... ok
+test_measured_settling_uses_internal_steps (test_physics.CouettePhysicsTests.test_measured_settling_uses_internal_steps) ... ok
+test_no_settling_before_requested_duration (test_physics.CouettePhysicsTests.test_no_settling_before_requested_duration) ... ok
+test_refining_grid_reduces_reference_error (test_physics.CouettePhysicsTests.test_refining_grid_reduces_reference_error) ... ok
+test_settling_scales_with_diffusivity_and_gap (test_physics.CouettePhysicsTests.test_settling_scales_with_diffusivity_and_gap) ... ok
+test_stability_endpoint_is_supported (test_physics.CouettePhysicsTests.test_stability_endpoint_is_supported) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 44.512s
+
+OK
