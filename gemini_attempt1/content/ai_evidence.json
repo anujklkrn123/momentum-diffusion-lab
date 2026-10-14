@@ -1,0 +1,86 @@
+{
+  "critique_metadata": {
+    "critique_model_label": "4 Argon High Effort",
+    "provider_interface": "Pending confirmation",
+    "critique_date": "Pending",
+    "tool_access": "Pending"
+  },
+  "critique_decisions": [
+    {
+      "topic": "Transient and steady-state shear-stress readouts and graphs",
+      "decision": "Rejected",
+      "reasoning": "Omit both transient and steady-state stress readouts and stress plots to avoid extra interface complexity for beginners. Retain the shear stress equation and brief conceptual explanation."
+    },
+    {
+      "topic": "Free exploration parameter bounds and laminar flow framing",
+      "decision": "Accepted with simplification",
+      "reasoning": "Restrict exploration to conservative teaching bounds (keeping UH/nu <= 15) described as teaching cases rather than a universal laminar-flow threshold, without adding a turbulence simulator or requiring Reynolds number prerequisite knowledge."
+    },
+    {
+      "topic": "Physical force intuition before the partial differential equation",
+      "decision": "Accepted",
+      "reasoning": "Introduce shear forces on a thin fluid layer and why unequal forces cause acceleration before presenting the second-order PDE, while keeping the formal calculus derivation in an expandable section."
+    },
+    {
+      "topic": "Standardized solver contract in physics.py and bounded validation window",
+      "decision": "Accepted",
+      "reasoning": "Expose exact function signatures for solve_couette_transient and analytical_couette, cap integration at 25,000 steps, and evaluate analytical agreement at dimensionless times 0.01, 0.05, 0.2, and 0.6."
+    },
+    {
+      "topic": "Heat and mass transfer scope and coaxial-cylinder viscometer diagram",
+      "decision": "Accepted",
+      "reasoning": "Keep heat and mass transfer as brief diffusivity comparisons (including stokes unit conversion) and include a simple, equal-axis top-down coaxial-cylinder schematic without simulating cylinders."
+    },
+    {
+      "topic": "Two-model comparison protocol",
+      "decision": "Accepted",
+      "reasoning": "Give the frozen specification independently to both models and allow exactly one consolidated correction round per implementation based on observed test failures, usability issues, and violated specification requirements."
+    }
+  ],
+  "model_comparison": {
+    "selection_status": "Pending — Final implementation has not been selected prior to completing the external two-model comparison.",
+    "external_validation_suite_status": "Pending — Formal comparison will run one unchanged external validation suite and reference evaluator against both models' original and corrected submissions.",
+    "models": [
+      {
+        "slot": "Model A (Astra)",
+        "exact_model_label": "Pending",
+        "date": "Pending",
+        "interface": "Pending",
+        "tool_access_conditions": "Pending",
+        "attempt_1_results": "Pending",
+        "correction_prompt_summary": "Pending",
+        "attempt_2_results": "Pending"
+      },
+      {
+        "slot": "Model B (Gemini)",
+        "exact_model_label": "Pending",
+        "date": "Pending",
+        "interface": "Pending",
+        "tool_access_conditions": "Pending",
+        "attempt_1_results": "Pending",
+        "correction_prompt_summary": "Pending",
+        "attempt_2_results": "Pending"
+      }
+    ]
+  },
+  "contributions": {
+    "student_contributions": [
+      "Defined the core pedagogical question separating dynamic viscosity (mu) and kinematic viscosity (nu) for beginning ChemE students.",
+      "Designed the four controlled Predict-and-Observe experiments and selected the baseline hypothetical fluid parameters.",
+      "Reviewed the AI critique and made explicit accept/reject decisions (such as rejecting shear-stress readouts to keep cognitive load low and bounding free exploration to conservative teaching cases).",
+      "Established the fairness protocol for the two-model comparison (one consolidated symptom-based correction round each, separate preservation of Attempt 1 and Attempt 2, and independent verification).",
+      "Pending: Execution of the external comparison suite, final model selection, personal learning reflection, and recorded video walkthrough."
+    ],
+    "ai_contributions": [
+      "Critique model ('4 Argon High Effort', provider/interface pending confirmation) reviewed the initial plan for numerical stability, early-time boundary-layer resolution, and pedagogical ordering.",
+      "Generated the runnable Streamlit interface (app.py), FTCS numerical solver and analytical series evaluator (physics.py), and unit test suite (test_physics.py) from the frozen specification."
+    ],
+    "independently_verified_findings": [
+      "Pending execution of the external, unchanged validation suite across both models' Attempt 1 and Attempt 2 submissions."
+    ]
+  },
+  "student_reflections_and_future_questions": {
+    "what_i_learned": "Pending — Reserved for the student's personal reflection after completing the two-model comparison.",
+    "future_questions": "Pending — Reserved for the student's future engineering and AI-workflow questions."
+  }
+}
